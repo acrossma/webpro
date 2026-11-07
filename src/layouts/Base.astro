@@ -69,9 +69,9 @@ const resolvedOgImage = ogImage ?? (info.site.ogImage || undefined);
       })} />
     )}
 </head>
-<body class="font-sans antialiased bg-background text-foreground flex flex-col min-h-screen">
+<body class="font-sans antialiased bg-background text-foreground flex flex-col min-h-dvh">
 <Navigation />
-<main class="flex-grow flex flex-col">
+<main class="flex-grow flex flex-col justify-between">
 <slot/>
 </main>
 </body>
