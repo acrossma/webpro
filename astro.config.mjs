@@ -71,12 +71,13 @@ const processor = unified({
 })
 
 export default defineConfig({
+    site: 'https://acrossma.github.io',
+    base: '/webpro',
     integrations: [react()],
     vite: {
         plugins: [tailwindcss()],
     },
     markdown: {
         syntaxHighlight: false,
-        processor,
-    },
+        processor,    },
 })
