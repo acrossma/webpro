@@ -1,33 +1,40 @@
 ---
 import Base from "../layouts/Base.astro";
-import siteInfo from "../../public/0user.json";
+import siteInfo from "../lib/info"; // adjust path as needed
 ---
 
-<Base title={siteInfo.site.title}
-      description={siteInfo.site.description}>
+<Base title={siteInfo.site.title} description={siteInfo.site.description}>
 
     <section class="container mx-auto px-6 py-16 flex-grow flex flex-col justify-center">
         <div class="max-w-3xl mx-auto w-full">
-            <h1 class="mb-2 text-4xl md:text-5xl font-bold tracking-tight text-balance">{siteInfo.name}</h1>
-            <p class="mb-4 text-lg md:text-xl text-muted-foreground">{siteInfo.role}</p>
+            <h1 class="mb-2 text-4xl md:text-6xl font-boldonse tracking-tight text-balance">
+            {siteInfo.name}</h1>
+            
+            <!-- Role with inline / Person link -->
+            <div class="mb-4 text-lg md:text-xl text-muted-foreground flex items-center gap-2">
+                <span>{siteInfo.role}</span>
+                <span>/</span>
+                <a href="/personal" class="text-accent underline underline-offset-2 hover:text-foreground transition-colors">Person</a>
+            </div>
 
             <p class="mb-4 text-base md:text-lg text-foreground/85 leading-relaxed text-pretty">
                 {siteInfo.home.bio}
             </p>
-            <p class="mb-10 text-base md:text-lg text-foreground/85 leading-relaxed text-pretty">
-                {siteInfo.home.note}
+            <p class="mb-10 text-base md:text-lg text-foreground/85 leading-relaxed text-pretty flex items-center gap-2">
+               <span role="img" aria-label="Venezuela flag">🇻🇪</span>
+            <span>{siteInfo.home.note}</span>
             </p>
 
             <div class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm">
                 {siteInfo.contacts.map((contact) => (
-                        <div>
-                            [{contact.label}: <a
-                                href={contact.href}
-                                target={contact.target}
-                                rel={contact.rel}
-                                class="text-muted-foreground underline underline-offset-2 decoration-accent/50 hover:text-accent hover:decoration-accent transition-colors"
+                    <div>
+                        [{contact.label}: <a
+                            href={contact.href}
+                            target={contact.target}
+                            rel={contact.rel}
+                            class="text-muted-foreground underline underline-offset-2 decoration-accent/50 hover:text-accent hover:decoration-accent transition-colors"
                         >{contact.text}</a>]
-                        </div>
+                    </div>
                 ))}
             </div>
         </div>

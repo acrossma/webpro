@@ -1,137 +1,126 @@
 {
-    "name": "John Doe",
-    "role": "Software Engineer",
+    "name": "LUIS ARETUO",
+    "role": "Motion Designer",
     "home": {
-        "bio": "Generalist software engineer focused on building reliable, maintainable systems — equally comfortable across the frontend, backend, and infrastructure layers.",
-        "note": "Thanks for visiting! This is a demo site with placeholder content."
+        "bio": "Lead motion designer based in Montréal, crafting narrative work, spatial experiences, and motion systems.",
+        "note": "Thanks for visiting!"
     },
     "site": {
-        "name": "example.com",
-        "url": "https://example.com",
-        "title": "John Doe - Software Engineer",
-        "description": "Software engineer specializing in web applications, APIs, and cloud infrastructure",
-        "locale": "en_US",
+        "name": "gelos.space",
+        "url": "https://gelos.space",
+        "title": "Luis Aretuo - Motion Designer",
+        "description": "Motion designer specializing in narrative animation, spatial experiences, and motion systems",
+        "locale": "en_CA",
         "ogImage": ""
     },
     "contacts": [
         {
             "label": "email",
-            "text": "john.doe@example.com",
-            "href": "mailto:john.doe@example.com"
+            "text": "luaretuo@gmail.com",
+            "href": "mailto:luaretuo@gmail.com"
         },
         {
-            "label": "github",
-            "text": "@johndoe",
-            "href": "https://github.com/johndoe",
+            "label": "resume",
+            "text": "view cv",
+            "href": "/resume"
+        },
+        {
+            "label": "sketchbook",
+            "text": "blogstation",
+            "href": "https://acrossma.github.io/photogrid/",
             "target": "_blank",
             "rel": "noopener noreferrer"
         },
         {
-            "label": "twitter",
-            "text": "@johndoe",
-            "href": "https://x.com/johndoe",
-            "target": "_blank",
-            "rel": "noopener noreferrer"
-        },
-        {
-            "label": "discord",
-            "text": "@johndoe",
-            "href": "https://discord.com/users/000000000000000000",
+            "label": "spotify",
+            "text": "@luaretuo",
+            "href": "https://open.spotify.com/user/luaretuo?si=b4f194273edb476c",
             "target": "_blank",
             "rel": "noopener noreferrer"
         }
     ],
     "resume": {
-        "name": "John Doe",
-        "role": "Software Engineer",
-        "bio": "Software engineer with a broad background across web applications, APIs, databases, and cloud infrastructure. Focused on clean architecture, automation, and shipping reliable software.",
+        "name": "Luis Aretuo",
+        "role": "Lead Motion Designer",
+        "bio": "Lead motion designer with extensive experience leading teams, overseeing projects from concept to delivery, and crafting immersive spatial and narrative experiences at Moment Factory.",
         "downloads": {
             "cv": {
                 "label": "download cv",
                 "text": "cv.pdf",
                 "href": "/cv.pdf",
-                "filename": "john-doe-cv.pdf"
-            },
-            "pgp": {
-                "label": "download pgp",
-                "text": "publickey.asc",
-                "href": "/pgp/publickey.asc",
-                "filename": "publickey.asc"
+                "filename": "luis-aretuo-cv.pdf"
             }
         },
-        "pgpFingerprint": "AAAA AAAA AAAA AAAA AAAA AAAA AAAA",
         "experience": [
             {
-                "role": "Senior Software Engineer",
-                "company": "Example Company",
-                "period": "2023 — Present",
+                "role": "Lead Motion Designer",
+                "company": "Moment Factory",
+                "period": "July 2024 — Present",
                 "description": [
-                    "Led feature development for a large-scale web application, improving reliability and performance.",
-                    "Designed and maintained internal tooling, CI pipelines, and automated testing strategies.",
-                    "Mentored junior engineers and drove code review and architecture discussions."
+                    "Lead motion team, overseeing projects and mentoring artists from concept to delivery[cite: 4].",
+                    "Advise on creative and technical decisions, ensuring feasibility and innovation[cite: 4].",
+                    "Projects include: National Geographic Headquarters Night Show, Billie Eilish 'HIT ME HARD AND SOFT' tour, Real Madrid Stadium Graphic Identity[cite: 4]."
                 ]
             },
             {
-                "role": "Software Engineer",
-                "company": "Example Company",
-                "period": "2021 — 2023",
+                "role": "Motion Designer",
+                "company": "Moment Factory",
+                "period": "February 2020 — July 2024",
                 "description": [
-                    "Built and shipped REST and GraphQL APIs backed by relational and NoSQL databases.",
-                    "Deployed and operated services on cloud infrastructure with monitoring and alerting.",
-                    "Collaborated across teams to plan and deliver multi-quarter product initiatives."
+                    "Executed motion pieces based on briefs for multiple immersive 2D and 3D experiences[cite: 4].",
+                    "Projects include: AT&T Discovery District, Harry Potter 4 Houses Show, Avatar at Gardens by the Bay, The Messi Experience[cite: 4]."
+                ]
+            },
+            {
+                "role": "Junior Motion Designer",
+                "company": "I/O Studio",
+                "period": "August 2019 — Present",
+                "description": [
+                    "Created graphics for commercial videos for brands like Tesla, Canopy Growth, Frank + Oak, and Airbnb[cite: 4]."
+                ]
+            },
+            {
+                "role": "Freelance Motion Designer",
+                "company": "Various / Ninja Tune / Perrier",
+                "period": "Freelance",
+                "description": [
+                    "Created lyric videos for Ninja Tune (Jordan Rakei) and music videos for Circus Records (Flux Pavilion)[cite: 4].",
+                    "Developed 360-degree marketing videos for Perrier using Cinema 4D and Redshift[cite: 4]."
                 ]
             }
         ],
         "skills": [
             {
-                "category": "Languages",
+                "category": "Design & Animation",
                 "items": [
-                    "TypeScript",
-                    "JavaScript",
-                    "Python",
-                    "Go",
-                    "SQL",
-                    "Bash"
+                    "Motion Design",
+                    "Art Direction"
                 ]
             },
             {
-                "category": "Frameworks & Libraries",
+                "category": "Production & Tools",
                 "items": [
-                    "React",
-                    "Node.js",
-                    "Express",
-                    "Astro",
-                    "Prisma",
-                    "Tailwind CSS"
-                ]
-            },
-            {
-                "category": "Infrastructure",
-                "items": [
-                    "Docker",
-                    "Kubernetes",
-                    "AWS",
-                    "GCP",
-                    "Terraform",
-                    "CI/CD"
-                ]
-            },
-            {
-                "category": "Practices",
-                "items": [
-                    "Testing",
-                    "Code Review",
-                    "Agile",
-                    "Observability",
-                    "Security Awareness"
+                    "After Effects",
+                    "Cinema 4D",
+                    "Redshift",
+                    "Notch",
+                    "Embergen",
+                    "Premiere",
+                    "Photoshop",
+                    "Illustrator"
                 ]
             }
         ],
         "education": [
             {
-                "degree": "B.S. in Computer Science",
-                "institution": "Example University",
-                "period": "2017 — 2021"
+                "degree": "B.F.A. Major in Design",
+                "institution": "Concordia University",
+                "period": "2013 — 2016"
+            },
+            {
+                "degree": "Fine Arts",
+                "institution": "Alberta College of Art + Design",
+                "period": "2009 — 2012"
             }
         ]
     }
