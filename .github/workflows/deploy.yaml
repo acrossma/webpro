@@ -18,20 +18,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: latest
+        uses: actions/checkout@v5
+
+      - name: Enable Corepack & Prepare pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest --activate
+
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: 'pnpm'
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
       - name: Build with Astro
         run: pnpm build
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
