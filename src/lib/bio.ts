@@ -1,5 +1,5 @@
 export const bioData = {
-  intro: "Lead motion designer based in Montréal, crafting narrative work, spatial experiences, and motion systems. Currently leading projects at Moment Factory including: ",
+  intro: "Based in Montréal, crafting narrative work, spatial experiences, and motion systems. Currently leading and making projects at Moment Factory including: ",
   projects: [
     {
       text: "National Geographic's new headquarters",
@@ -10,9 +10,9 @@ export const bioData = {
       href: "https://momentfactory.com/products/billie-eilish-hit-me-hard-and-soft-the-tour"
     },
     {
-      text: "Real Madrid Stadium Graphic Identity",
-      href: "https://www.momentfactory.com"
+      text: "Shinjuku's metro station",
+      href: "https://momentfactory.com/products/tokyo-shinjuku-station"
     }
   ],
-  outro: "Pushing the boundaries of immersive media and motion design."
+  outro: ". Pushing the boundaries of immersive media and motion design."
 };

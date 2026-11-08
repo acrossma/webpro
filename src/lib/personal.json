@@ -1,25 +1,48 @@
 {
     "name": "LUIS ARETUO",
     "role": "Person",
-    "bio": "Off the clock: homelabbing, grilling over charcoal, collecting vintage shirts, playing retro games, and tinkering with code.",
-    "note": "🇻🇪🇨🇦 Thanks for visiting!",
+    "bio": "Maracaibo, but in Canada since 07. Gracias Messi 🐐. In a 4 year relationship with my server. Usually tinkering or building playlist. Current Obession: Homebrew TV",
+    "note": "🇻🇪🇦🇷🇨🇦 Thanks for visiting!",
     "contacts": [
         {
-            "text": "@acrossma",
-            "href": "https://github.com/acrossma",
+            "label": "ded blog",
+            "text": "rational_works",
+            "href": "https://rational-works.tumblr.com/",
             "target": "_blank",
             "rel": "noopener noreferrer"
         },
         {
+            "label": "ded blog",
+            "text": "DiscordRecord",
+            "href": "https://discordrecord.tumblr.com/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+        },
+        {
+            "label": "spotify",
             "text": "@luaretuo",
             "href": "https://open.spotify.com/user/luaretuo?si=b4f194273edb476c",
             "target": "_blank",
             "rel": "noopener noreferrer"
         },
         {
-            "label": "sketchbook",
-            "text": "blogstation",
-            "href": "https://acrossma.github.io/photogrid/",
+            "label": "podcast",
+            "text": "@superego",
+            "href": "https://www.youtube.com/@superego_podcast",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+        },
+        {
+            "label": "server",
+            "text": "dashboard",
+            "href": "https://open.spotify.com/user/luaretuo?si=b4f194273edb476c",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+        },
+        {
+            "label": "myanimelist",
+            "text": "💀",
+            "href": "https://myanimelist.net/animelist/Acrossma",
             "target": "_blank",
             "rel": "noopener noreferrer"
         }
