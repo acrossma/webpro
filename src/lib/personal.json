@@ -5,14 +5,12 @@
     "note": "🇻🇪🇨🇦 Thanks for visiting!",
     "contacts": [
         {
-            "label": "github",
             "text": "@acrossma",
             "href": "https://github.com/acrossma",
             "target": "_blank",
             "rel": "noopener noreferrer"
         },
         {
-            "label": "spotify",
             "text": "@luaretuo",
             "href": "https://open.spotify.com/user/luaretuo?si=b4f194273edb476c",
             "target": "_blank",

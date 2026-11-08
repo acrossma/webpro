@@ -2,7 +2,7 @@
     "name": "LUIS ARETUO",
     "role": "Motion Designer",
     "home": {
-        "bio": "Lead motion designer based in Montréal, crafting narrative work, spatial experiences, and motion systems.",
+        "bio": "Lead motion designer based in Montréal crafting narrative work, spatial experiences, and motion systems. Currently leading projects at Moment Factory including the <a href=\"https://www.momentfactory.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-accent underline underline-offset-2 decoration-accent/50 hover:text-accent hover:decoration-accent transition-colors\">National Geographic Headquarters Night Show</a>, Billie Eilish 'HIT ME HARD AND SOFT' tour, and the Real Madrid Stadium Graphic Identity.",
         "note": "🇻🇪🇨🇦 Thanks for visiting!"
     },
     "site": {
@@ -15,24 +15,26 @@
     },
     "contacts": [
         {
-            "label": "email",
             "text": "luaretuo@gmail.com",
             "href": "mailto:luaretuo@gmail.com"
         },
-        {
-            "label": "resume",
-            "text": "view cv",
-            "href": "/resume"
+                {
+            "text": "reel",
+            "href": "https://vimeo.com/318220266?fl=pl&fe=sh",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
         },
         {
-            "label": "sketchbook",
-            "text": "blogstation",
+            "text": "resume",
+            "href": "/webpro/resume"
+        },
+        {
+            "text": "blog",
             "href": "https://acrossma.github.io/photogrid/",
             "target": "_blank",
             "rel": "noopener noreferrer"
         },
         {
-            "label": "spotify",
             "text": "@luaretuo",
             "href": "https://open.spotify.com/user/luaretuo?si=b4f194273edb476c",
             "target": "_blank",
@@ -94,7 +96,8 @@
                 "category": "Design & Animation",
                 "items": [
                     "Motion Design",
-                    "Art Direction"
+                    "Art Direction",
+                    "Compositing"
                 ]
             },
             {
@@ -104,6 +107,7 @@
                     "Cinema 4D",
                     "Redshift",
                     "Notch",
+                    "ComfyUI",
                     "Embergen",
                     "Premiere",
                     "Photoshop",
