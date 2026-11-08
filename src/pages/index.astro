@@ -2,6 +2,11 @@
 import Base from "../layouts/Base.astro";
 import siteInfo from "../lib/info"; // adjust path as needed
 import { bioData } from '../lib/bio.ts';
+import { visitPhrases } from '../lib/visits.ts';
+
+// Pick a random phrase on load
+const randomPhrase = visitPhrases[Math.floor(Math.random() * visitPhrases.length)];
+const siteNote = `🇻🇪🇨🇦 ${randomPhrase}`;
 ---
 
 <Base title={siteInfo.site.title} description={siteInfo.site.description}>
@@ -12,10 +17,10 @@ import { bioData } from '../lib/bio.ts';
             {siteInfo.name}</h1>
             
             <!-- Role with inline / Person link -->
-            <div class="mb-4 text-lg md:text-xl text-muted-foreground flex items-center gap-2">
-                <span>{siteInfo.role}</span>
-                <span>/</span>
-                <a href={`${import.meta.env.BASE_URL}/personal`} class="text-accent underline underline-offset-2 hover:text-foreground transition-colors">Person</a>
+            <div class="mb-4 text-lg md:text-lg flex items-center gap-2">
+                <span class="text-accent font-medium">{siteInfo.role}</span>
+                <span class="text-muted-foreground">/</span>
+                <a href={`${import.meta.env.BASE_URL}/personal`} class="text-muted-foreground underline underline-offset-2 hover:text-accent transition-colors">Person</a>
             </div>
 
             <p class="mb-4 text-base md:text-lg text-foreground/85 leading-relaxed text-pretty">
@@ -40,7 +45,7 @@ import { bioData } from '../lib/bio.ts';
     {bioData.outro}
         </p>
             <p class="mb-10 text-base md:text-lg text-foreground/85 leading-relaxed text-pretty flex items-center gap-2">
-            <span>{siteInfo.home.note}</span>
+                <span>{siteNote}</span>
             </p>
 
             <div class="flex flex-wrap items-center gap-x-3 gap-y-2 text-lg">
