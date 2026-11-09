@@ -7,12 +7,13 @@ import personalInfo from "../lib/personal.json";
 
     <section class="container mx-auto px-6 py-16 flex-grow flex flex-col justify-center">
         <div class="max-w-3xl mx-auto w-full">
-            <h1 class="mb-2 text-4xl md:text-6xl font-boldonse tracking-tight text-balance">{personalInfo.name}</h1>
+            <h1 class="mb-2 text-4xl md:text-6xl font-boldonse tracking-tight text-balance">
+            {personalInfo.name}</h1>
             
-            <div class="mb-4 text-lg md:text-xl text-muted-foreground flex items-center gap-2">
-                <span>{personalInfo.role}</span>
-                <span>/</span>
-                <a href="/webpro" class="text-accent underline underline-offset-2 hover:text-foreground transition-colors">Motion Designer</a>
+            <div class="mb-4 text-lg md:text-lg flex items-center gap-2">
+                <a href={import.meta.env.BASE_URL} class="text-muted-foreground underline underline-offset-2 hover:text-accent transition-colors">Motion Designer</a>
+                <span class="text-muted-foreground">/</span>
+                <span class="text-accent font-medium">Person</span>
             </div>
 
             <p class="mb-4 text-base md:text-lg text-foreground/85 leading-relaxed text-pretty">

@@ -15,8 +15,12 @@
     },
     "contacts": [
         {
-            "text": "luaretuo@gmail.com",
+            "text": "email",
             "href": "mailto:luaretuo@gmail.com"
+        },
+        {
+            "text": "projects",
+            "href": "/webpro/projects"
         },
                 {
             "text": "reel",
@@ -42,9 +46,9 @@
         "downloads": {
             "cv": {
                 "label": "download cv",
-                "text": "cv.pdf",
-                "href": "/cv.pdf",
-                "filename": "luis-aretuo-cv.pdf"
+                "text": "LuisAretuo_CV.pdf",
+                "href": "/LuisAretuo_CV.pdf",
+                "filename": "LuisAretuo_CV.pdf"
             }
         },
         "experience": [
@@ -53,9 +57,9 @@
                 "company": "Moment Factory",
                 "period": "July 2024 — Present",
                 "description": [
-                    "Lead motion team, overseeing projects and mentoring artists from concept to delivery[cite: 4].",
-                    "Advise on creative and technical decisions, ensuring feasibility and innovation[cite: 4].",
-                    "Projects include: National Geographic Headquarters Night Show, Billie Eilish 'HIT ME HARD AND SOFT' tour, Real Madrid Stadium Graphic Identity[cite: 4]."
+                    "Lead motion team, overseeing projects and mentoring artists from concept to delivery.",
+                    "Advise on creative and technical decisions, ensuring feasibility and innovation.",
+                    "Projects include: National Geographic Headquarters Night Show, Billie Eilish 'HIT ME HARD AND SOFT' tour, Real Madrid Stadium Graphic Identity."
                 ]
             },
             {
@@ -63,8 +67,8 @@
                 "company": "Moment Factory",
                 "period": "February 2020 — July 2024",
                 "description": [
-                    "Executed motion pieces based on briefs for multiple immersive 2D and 3D experiences[cite: 4].",
-                    "Projects include: AT&T Discovery District, Harry Potter 4 Houses Show, Avatar at Gardens by the Bay, The Messi Experience[cite: 4]."
+                    "Executed motion pieces based on briefs for multiple immersive 2D and 3D experiences.",
+                    "Projects include: AT&T Discovery District, Harry Potter 4 Houses Show, Avatar at Gardens by the Bay, The Messi Experience."
                 ]
             },
             {
@@ -72,7 +76,7 @@
                 "company": "I/O Studio",
                 "period": "August 2019 — Present",
                 "description": [
-                    "Created graphics for commercial videos for brands like Tesla, Canopy Growth, Frank + Oak, and Airbnb[cite: 4]."
+                    "Created graphics for commercial videos for brands like Tesla, Canopy Growth, Frank + Oak, and Airbnb."
                 ]
             },
             {
@@ -80,22 +84,24 @@
                 "company": "Various / Ninja Tune / Perrier",
                 "period": "Freelance",
                 "description": [
-                    "Created lyric videos for Ninja Tune (Jordan Rakei) and music videos for Circus Records (Flux Pavilion)[cite: 4].",
-                    "Developed 360-degree marketing videos for Perrier using Cinema 4D and Redshift[cite: 4]."
+                    "Created lyric videos for Ninja Tune (Jordan Rakei) and music videos for Circus Records (Flux Pavilion).",
+                    "Developed 360-degree marketing videos for Perrier using Cinema 4D and Redshift."
                 ]
             }
         ],
         "skills": [
             {
-                "category": "Design & Animation",
+                "category": "Soft Skills",
                 "items": [
                     "Motion Design",
                     "Art Direction",
-                    "Compositing"
-                ]
+                    "Compositing",
+                    "Creative Strategy",
+                    "Artist Management"
+                ]   
             },
             {
-                "category": "Production & Tools",
+                "category": "Hard Skills",
                 "items": [
                     "After Effects",
                     "Cinema 4D",

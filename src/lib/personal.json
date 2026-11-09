@@ -1,20 +1,13 @@
 {
     "name": "LUIS ARETUO",
     "role": "Person",
-    "bio": "Maracaibo, but in Canada since 07. Gracias Messi 🐐. In a 4 year relationship with my server. Usually tinkering or building playlist. Current Obession: Homebrew TV",
+    "bio": "Maracaibo, but in Canada since 07. Gracias Messi 🐐. In a 4 year relationship with my server. Usually tinkering or building playlist. Current Obession: Homebrew TV. I listen to French-House and Salsa, Nujabes and Magdalena Bay, Evangelion and Shark Tank",
     "note": "🇻🇪🇦🇷🇨🇦 Thanks for visiting!",
     "contacts": [
         {
-            "label": "ded blog",
-            "text": "rational_works",
-            "href": "https://rational-works.tumblr.com/",
-            "target": "_blank",
-            "rel": "noopener noreferrer"
-        },
-        {
-            "label": "ded blog",
-            "text": "DiscordRecord",
-            "href": "https://discordrecord.tumblr.com/",
+            "label": "podcast",
+            "text": "@superego",
+            "href": "https://www.youtube.com/@superego_podcast",
             "target": "_blank",
             "rel": "noopener noreferrer"
         },
@@ -22,13 +15,6 @@
             "label": "spotify",
             "text": "@luaretuo",
             "href": "https://open.spotify.com/user/luaretuo?si=b4f194273edb476c",
-            "target": "_blank",
-            "rel": "noopener noreferrer"
-        },
-        {
-            "label": "podcast",
-            "text": "@superego",
-            "href": "https://www.youtube.com/@superego_podcast",
             "target": "_blank",
             "rel": "noopener noreferrer"
         },
@@ -43,6 +29,20 @@
             "label": "myanimelist",
             "text": "💀",
             "href": "https://myanimelist.net/animelist/Acrossma",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+        },
+        {
+            "label": "ded blog",
+            "text": "rational_works",
+            "href": "https://rational-works.tumblr.com/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+        },
+        {
+            "label": "ded blog",
+            "text": "DiscordRecord",
+            "href": "https://discordrecord.tumblr.com/",
             "target": "_blank",
             "rel": "noopener noreferrer"
         }
