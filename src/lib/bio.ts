@@ -1,5 +1,5 @@
 export const bioData = {
-  intro: "Based in Montréal, crafting narrative work, spatial experiences, and motion systems. Currently leading and making projects at Moment Factory including: ",
+  intro: "Based in Montréal, spatial experiences, motion identity and looping comps.\nCurrently leading and making projects at Moment Factory including: ",
   projects: [
     {
       text: "National Geographic's new headquarters",
