@@ -71,7 +71,7 @@ const processor = unified({
 })
 
 export default defineConfig({
-    site: 'https://acrossma.github.io',
+    site: 'https://looees.help',
     base: '/webpro',
     integrations: [react()],
     vite: {
