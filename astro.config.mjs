@@ -72,7 +72,7 @@ const processor = unified({
 
 export default defineConfig({
     site: 'https://looees.help',
-    base: '/webpro',
+    base: '/',
     integrations: [react()],
     vite: {
         plugins: [tailwindcss()],
